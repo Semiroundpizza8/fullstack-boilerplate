@@ -28,6 +28,20 @@ This is NOT meant to be a “copy-paste and go” sort of reference, but rather 
 
 It isn't _required_ to build the HTML for your pull requests, but please at least write them in Markdown!
 
+### Boilerplate for Boilerplates
+```javascript
+/*
+## Technology
+
+### Subheader
+
+```javascript
+**CODE HERE**
+const express = require('express');
+const path = require('path'); // path formatting utility
+``` */
+```
+
 ## Express
 
 ### NPM Modules
@@ -42,7 +56,6 @@ const path = require('path'); // path formatting utility
 const bodyParser = require('body-parser'); // parsing middleware
 const morgan = require('morgan'); // logging middleware, can substitute with volleyball
 ```
-
 ### Setup
 
 ```javascript
